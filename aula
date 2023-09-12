@@ -1,0 +1,155 @@
+// let condicao1 = true;
+
+// if (condicao1) {
+// 	// como o valor da condição é true,
+// 	// o codigo desse bloco é executavel
+// 	console.log('entrei no if 1!');
+// }
+
+//
+
+// let condicao2 = false;
+
+// if (condicao2) {
+// 	// como o valor da condição é false,
+// 	// o codigo desse bloco não é executavel
+// 	console.log('entrei no if 2!');
+// }
+
+//
+
+// exercicio 1, 1.1 e 2
+
+//  let num1 = prompt("fala um numero");
+//  let num2 = prompt("fala outro");
+// //se
+//  if (num1 === num2) {
+// 	console.log("Os numeros são iguais")
+//  } else { //senao
+// 	console.log("Os numeros não são iguais")
+//  }
+
+// console.log("os numeros usados foram:", num1, "e", num2);
+
+//
+
+// versao de function
+
+//  function compara (a,b) {
+//  	if (a === b) {
+//  	return"iguais";
+//  } 
+//  else {
+//  	return"diferentes";
+//  } 
+// } // perguntar
+//  console.log(compara(
+// 	Number(prompt("digite um numero")),
+// 	Number(prompt("digite outro numero"))
+// ));
+
+//
+
+// let condicao1 = false
+// let condicao2 = true
+
+// if (condicao1){
+// 	consoçe.log('entrei no if 1!')
+// } else {
+// 	// como o valor da condicao1 é false,
+// 	// o codigo nao sera executado
+// 	if (condicao2) {
+// 		// como o valor da condicao2 é true,
+// 		// executaremos esse codigo:
+// 		console.log('entrei no if 2!')
+// 	}
+// }
+
+//
+
+// let condicao1 = false
+// let condicao2 = false
+// if(condicao1) {
+// 	console.log('entrei no if 1!')
+// } else if (condicao2) {
+// 	console.log('entrei no if 2!')
+// } else {
+// 	console.log('entrei no else!')
+// }
+
+//
+
+// exercicio 3
+
+// function compare (num1, num2) {
+// 	if (num1 > num2) {
+// 		return "primeiro numero é maior!"
+// 	} else if (num1 < num2 ) {
+// 		return "primeiro numero é menor!"
+// 	} else {
+// 		return "são iguais"
+// 	}
+// }
+
+//   console.log(compare(
+//  	Number(prompt("digite um numero")),
+//  	Number(prompt("digite outro numero"))
+//  ));
+
+
+//
+
+// let paisDeOrigem
+// if (paisDeOrigem === 'Brasil'){
+// 	console.log('brasileiro')
+// } else if (paisDeorigem === 'EUA'){
+// 	console.log('norte americano')
+// } else if (paisDeOrigem === 'Inglaterra'){
+// 	console.log('ingles')
+// } else if (paisDeOrigem === 'França'){
+// 	console.log('frances')
+// } else if (paisDeOrigem === 'italia'){
+// 	console.log('italiano')
+// } else if (paisDeOrigem === 'Canadá'){
+// 	console.log('canadense')
+// } else {
+// 	console.log('nacionalidade não encontrada')
+// }
+
+//
+// switch case
+// let paisDeOrigem
+// switch (paisDeOrigem) {
+// 	case 'Brasil':
+// 		console.log('brasileiro')
+// 		break
+// 	case 'EUA':
+// 		console.log('norte americano')
+// 		break
+// 	case 'Inglaterra':
+// 	    console.log('inglês')
+// 		break
+// 	default:
+// 		console.log('nacionalidade não encontrada')
+// 		break;
+// }
+
+// 
+
+// exercicio 4
+
+let pokemon = prompt("escolhe um pokemon ai")
+switch (pokemon) {
+    case 'Bulbasauro':
+		console.log('Planta e veneno')
+		break
+	case 'Charmander':
+		console.log('Fogo')
+		break
+	case 'Squirtle':
+		console.log('Aguá')
+		break
+	default:
+		console.log('tem não mano')
+		break
+}
